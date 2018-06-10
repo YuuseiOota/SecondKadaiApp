@@ -19,6 +19,8 @@ class ResultViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         label.text = "こんにちは、\(name)さん"
+        label.sizeToFit()
+        label.center.x = view.center.x
     }
 
     override func didReceiveMemoryWarning() {
